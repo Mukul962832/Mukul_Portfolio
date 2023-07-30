@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="portfolio.css">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png" />
+
+    <!-- Animate CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Mukul Portfolio</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <h1>Portfolio</h1>
+        <ul class="navigation">
+            <li><a href="#about" class="nav-link">Home</a></li>
+            <li><a href="#more" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+            <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+        <div class="bio">
+            <span class="hlo">HELLO</span> <br> I'm &nbsp; <span class="purple">Mukul Singh</span> <br><span
+                id="element"></span>
+            <div>
+                <!-- HTML !-->
+                <a href="https://drive.google.com/drive/folders/1v4WDT9hRo968ZM2ema6N9eyYdHbZ4PP0">
+                    <button class="button-82-pushable" role="button">
+                        <span class="button-82-shadow"></span>
+                        <span class="button-82-edge"></span>
+                        <span class="button-82-front text">
+                            RESUME
+                        </span>
+                    </button>
+                </a>
+            </div>
+        </div>
+        <div class="image">
+            <img src="assets/images/Neutral Beige Minimalist Modern Trendy Photo Frame Elegant Feminine Quote Blog Instagram Post (1).png"
+                alt="Mukul-Sibgh" loading="lazy" class="hero-img" />
+        </div>
+
+    </section>
+
+    <!-- More about -->
+    <section class="more-about" id="more">
+        <h2>About</h2>
+        <p>
+            Welcome to my portfolio! As an engineering student at IIIT Bhopal, I'm passionate about data structures and
+            algorithms, frontend web development, and graphic design. This collection of projects represents my
+            dedication to learning and creating impactful works. <br>
+
+            In the world of data structures and algorithms, I find joy in solving complex problems and crafting
+            efficient solutions. Through hands-on experience, I've honed my skills to optimize performance and tackle
+            real-world challenges. <br>
+
+            Frontend web development has allowed me to merge creativity with technical finesse. From building
+            captivating websites to enhancing user experiences, each project reflects my dedication to seamless design
+            and functionality. <br>
+
+            Graphic design has emerged as my avenue for visual storytelling. From crafting captivating logos that speak
+            volumes to creating compelling illustrations that evoke emotions, I believe in the power of artistry to
+            convey meaningful messages and ignite imaginations. <br>
+
+            My portfolio is a testament to my unwavering dedication to making a positive impact. By leveraging
+            cutting-edge technology and innovative design, I aspire to contribute to a brighter and better future for
+            all. Let's embark on this exciting journey together, celebrating the boundless possibilities that lie ahead,
+            as we push the boundaries of innovation and creativity.
+
+        </p>
+
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+        <h2 class="skill-header">My Skills</h2>
+
+        <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+                <img src="assets/icons/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card" />
+                <img src="assets/icons/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card" />
+                <img src="assets/icons/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card" />
+            </div>
+
+            <div class="second-set animate__animated animate__pulse">
+                <img src="assets/icons/icons8-bootstrap.svg" alt="" loading="lazy" class="icon icon-card" />
+                <img src="assets/icons/icons8-react-native.svg" alt="" loading="lazy" class="icon icon-card" />
+                <img src="assets/icons/icons8-git.svg" alt="" loading="lazy" class="icon icon-card" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+        <h2 class="projects-title">My Projects</h2>
+        <div class="projects-container">
+            <div class="project-container project-card">
+                <img src="assets/images/expenseTracker.png" alt="expense-tracker" loading="lazy" class="project-pic" />
+                <h3 class="project-title">Calculator</h3>
+                <p class="project-details">
+                    A simple calculator built with HTML, CSS, and JavaScript is a user-friendly web application that
+                    allows users to perform basic arithmetic calculations quickly and efficiently. The calculator's
+                    interface consists of a display screen where users can see their input and the calculated results,
+                    along with buttons representing digits (0-9), arithmetic operators (+, -, *, /), and control
+                    functions (C for clear, = for equals).
+                </p>
+                <a href="#" target="_blank" class="project-link">Check it Out</a>
+            </div>
+            <div class="project-container project-card">
+                <img src="assets/images/netflixClone.png" alt="netflic-clone" loading="lazy" class="project-pic" />
+                <h3 class="project-title">Portfolio</h3>
+                <p class="project-details">
+                    A portfolio created with HTML, CSS, and JavaScript serves as a digital showcase of an
+                    individual's skills, achievements, and creative work. It is essential tool for web developers,
+                    designers, and other professionals to establish an online presence and attract
+                    potential employers. The portfolio might include a dedicated skills section
+                    outlining individual's proficiency in specific programming languages, tools, and frameworks.
+                </p>
+                <a href="#" target="_blank" class="project-link">Check it Out</a>
+            </div>
+            <div class="project-container project-card">
+                <img src="assets/images/greenyEarth.png" alt="greeny-earth" loading="lazy" class="project-pic" />
+                <h3 class="project-title">Greeny Earth</h3>
+                <p class="project-details">
+                    A simple calculator built with HTML, CSS, and JavaScript is a user-friendly web application that
+                    allows users to perform basic arithmetic calculations quickly and efficiently. The calculator's
+                    interface consists of a display screen where users can see their input and the calculated results,
+                    along with buttons representing digits (0-9), arithmetic operators (+, -, *, /), and control
+                    functions (C for clear, = for equals).
+                </p>
+                <a href="#" target="_blank" class="project-link">Check it Out</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+        <h2>Get In Touch With Me</h2>
+        <div class="contact-form-container">
+            <div class="contact-form">
+                <form action="https://formspree.io/f/xyylnggw" method="POST">
+                    <div class="form-control">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="sender-name" placeholder="Enter Your Name"
+                            class="input-field" required />
+                    </div>
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="sender-email" placeholder="Enter Your Email"
+                            class="input-field" required />
+                    </div>
+                    <div class="form-control">
+                        <label for="message">Message</label>
+                        <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message"
+                            class="input-field" required></textarea>
+                    </div>
+                    <input type="submit" value="Submit" id="submit-btn" class="submit-btn" />
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+        <a href="https://twitter.com/MukulSi46694755" target="_blank"><img src="assets/icons/icons8-twitter-circled.gif"
+                alt="Twitter" loading="lazy" class="socicon" /></a>
+        <a href="https://www.instagram.com/muk00l_singh/" target="_blank"><img src="assets/icons/icons8-instagram.gif"
+                alt="Instagram" loading="lazy" class="socicon" /></a>
+        <a href="https://www.linkedin.com/in/mukul-singh-7509721a1/" target="_blank"><img
+                src="assets/icons/icons8-linkedin-circled.gif" alt="Linkedin" loading="lazy" class="socicon" /></a>
+        <a href="https://github.com/Mukul962832" target="_blank"><img src="assets/icons/icons8-github.gif" alt="Github"
+                class="socicon" /></a>
+    </div>
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"><img src="assets/icons/icons8-upward-arrow.gif" class="socicon up-arrow"
+            alt="" /></i>
+
+    <!-- Footer section -->
+
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="item1">
+                        <h3>Address</h3>
+                        <ul>
+                            <li><a href="https://goo.gl/maps/4ybfX3rxF1RqGRSV7">Vill - Karaj, Post - Rampur bujurg</a></li>
+                            <li><a href="https://goo.gl/maps/WcRr6EmXM9tcN3iCA">District - Deoria</a></li>
+                            <li><a href="https://goo.gl/maps/TsofDxc1QLMBK74u9">Uttar Pradesh</a></li>
+                        </ul>
+                    </div>
+                    <div class="item2">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">College</a></li>
+                            <li><a href="#">Indian Institute of Information Technology Bhopal</a></li>
+                            <li><a href="#">Madhya Pradesh</a></li>
+                        </ul>
+                    </div>
+                    <div class="text2">
+                        <h3>Contact Details</h3>
+                        <ul>
+                            <li><a href="#">9628323970 <br> mukulsingh745@gmail.com <br>21U01010@iiiitbhopal.ac.in</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- Website scripts -->
+    <script src="portfolio.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Frontend Web Developer.', ' Graphic Designer.', 'Software Developer.'],
+            typeSpeed: 70,
+            backSpeed: 70,
+            loop: true
+        });
+    </script>
+</body>
+
+</html>
