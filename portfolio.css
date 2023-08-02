@@ -725,10 +725,11 @@ footer {
     }
 
     .more-about p {
-        width: 220px;
-        /* margin: auto; */
-        /* margin-right: -300px; */
-        margin-left: -27px;
+        width: 262px;
+        margin: auto;
+        margin-right: -300px;
+        margin-left: -51px;
+        font-size: small;
     }
 
     .skills {
@@ -741,7 +742,7 @@ footer {
 
     .item1 {
         margin: auto;
-        margin-top: -45px;
+        margin-top: -44px;
     }
 
     .item2 {
@@ -753,8 +754,4 @@ footer {
         margin: -50px;
         margin-top: 30px;
     }
-
-
-
-
 }
