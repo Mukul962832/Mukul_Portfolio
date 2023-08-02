@@ -262,7 +262,7 @@ nav ul li {
 }
 
 .more-about p {
-    line-height: var(--line-height);
+    line-height: 1.5rem;
     padding: 0.4rem;
 }
 
@@ -728,7 +728,7 @@ footer {
         width: 262px;
         margin: auto;
         margin-right: -300px;
-        margin-left: -51px;
+        margin-left: -23px;
         font-size: small;
     }
 
